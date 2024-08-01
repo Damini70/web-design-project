@@ -69,7 +69,7 @@ function Review() {
                         height="59"
                       />
                     </div>
-                    <div className="ml-[3rem]  ">
+                    <div className="md:ml-[3rem]  ">
                       <p className="font-semibold text-[24px]">
                         {item["Name"]}
                       </p>

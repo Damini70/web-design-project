@@ -59,7 +59,12 @@ function Review() {
                     height="89"
                     className="absolute top-[-38px] right-[-19px]"
                   />
-                  <div>{item["Reviews"]}</div>
+                  <div className="">
+                    {" "}
+                    {item["Reviews"].length > 50
+                      ? item["Reviews"].substring(0, 50) + "..."
+                      : item["Reviews"]}
+                  </div>
                   <div className="flex justify-start absolute bottom-[3rem] ">
                     <div className="rounded-full ">
                       <Image
@@ -69,7 +74,7 @@ function Review() {
                         height="59"
                       />
                     </div>
-                    <div className="md:ml-[3rem]  ">
+                    <div className="md:ml-[3rem] ml-[1rem]">
                       <p className="font-semibold text-[24px]">
                         {item["Name"]}
                       </p>

@@ -8,7 +8,7 @@ function Subscribe() {
           alt="circle"
           width="301"
           height="301"
-          className="absolute right-[-10px] top-[265rem] hidden lg:block"
+          className="absolute right-[-10px] top-[272rem] hidden lg:block"
         />
       </div>
       <div className="bg-[#007FF4] rounded-xl text-center p-[5rem] relative mt-[3rem] lg:w-[1198px] h-[478px] text-white">
